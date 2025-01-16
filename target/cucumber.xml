@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="5.336">
+    <testcase classname="Feature to test login Functionality" name="SignIn button should exist" time="2.725">
+        <system-out><![CDATA[Given User launch the Browser...............................................passed
+When User launch Zero Bank Application......................................passed
+Then SignIn button should be Displayed......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test login Functionality" name="User should login with valid credentials" time="1.271">
+        <system-out><![CDATA[Given User launch the Browser...............................................passed
+And User launch Zero Bank Application.......................................passed
+And SignIn button should be Displayed.......................................passed
+When User enter valid 'username' and 'password'.............................passed
+And Submit the form.........................................................passed
+Then User should be able to see the userIndex page..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to Logout Functionality" name="User should able to logout of the application" time="1.19">
+        <system-out><![CDATA[Given User should be able to see the username Option........................passed
+When User should click on Username Option...................................passed
+And User should click on Logout Option......................................passed
+Then User should have SignIn button now.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
